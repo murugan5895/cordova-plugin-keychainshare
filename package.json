@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-keychainshare",
+  "version": "0.1.0",
+  "description": "Keychain Share plugin",
+  "cordova": {
+    "id": "cordova-plugin-keychainshare",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordova-plugin-keychainshare.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "keychain",
+    "share",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Murugan Jagadeesan",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/cordova-plugin-keychainshare/issues"
+  },
+  "homepage": "https://github.com/cordova-plugin-keychainshare#readme"
+}

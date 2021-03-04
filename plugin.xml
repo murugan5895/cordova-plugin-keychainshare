@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.capgemini.keychainshare"
+        version="0.7.0">
+
+  <name>KeychainShare</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/keychainshare.js" target="js/keychainshare.js"/>
+
+  <js-module src="www/keychainshare.js" name="keychainshare">
+    <clobbers target="keychainshare" />
+  </js-module>
+
+
+  <platform name="ios">
+    
+    <config-file target="config.xml" parent="/widget">
+      <feature name="KeychainShare">
+        <param name="ios-package" value="KeychainShare" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/KeychainShare.h" target-dir="KeychainShare"/>
+    <source-file src="src/ios/KeychainShare.m" target-dir="KeychainShare"/>
+  </platform>
+
+</plugin>
